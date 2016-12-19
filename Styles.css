@@ -1,0 +1,241 @@
+/*div, p, nav {border: 2px solid red;}*/
+
+
+html {
+	margin: auto;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	/*background-size:cover;*/
+	background-attachment: fixed;
+
+}
+/*!!!!!!!!!!THIS IS THE ROLLING PAGE!!!!!!!!*/
+body {
+	font: 75% helvetica, sans-serif;
+	background-color: #E9C9C5;
+	background-position: center;
+	margin: 40px 200px 40px 200px;
+	width: 850px;
+	height: auto;
+	box-shadow: 5px 5px 15px #888888;
+	padding-left: 20px;
+	padding-right:  20px;
+	padding-bottom: 20px;
+}
+
+/*!!!!!!!!!!!!!!!!!THIS IS THE LOGO!!!!!!!!!!!!*/
+
+h1 {
+	column-span: all;
+	text-align: left;
+	color: #F15B5B;
+	margin-bottom: 0px;
+	font-family: 'Playfair Display', serif;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 2px
+}
+
+/*!!!!!!!!!!!!THIS IS THE NAV BOX!!!!!!!!!!!!!!!*/
+li {
+	/*height: 10px;*/
+	display:inline-block;
+	background-position: center;
+	padding: 10px 55px 15px 55px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 23px;
+}
+
+li a:link, a:visited {
+	color: black;
+	text-decoration: none;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #B5DDCC;
+}
+
+
+li a:hover {
+	color: white;
+}
+
+.active {
+	background-color: #7AC8AC;
+	/*padding-bottom: 50px;*/
+	color: white;
+}
+
+
+/*!!!!!!!!!!!!!!!!!TYPE RELATED!!!!!!!!!!!!!!!!*/
+
+h2, h3, h4, h5 {
+	font-family: 'Playfair Display', serif;
+	font-variant: small-caps;
+	margin: 0px;
+	color: #F15B5B;
+}
+
+h2{font-size: 40px;}
+h3{font-size: 25px;}
+h4{font-size: 20px;}
+h5{font-size: 15px;}
+
+p{font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*!!!!!!!!!!!!!!!!INDEX PAGE!!!!!!!!!!!!!!!!!!!*/
+.img2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.box {
+	width: 140px;
+	height: 80px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 23px;
+	text-align: center;
+	display:inline-block;
+}
+
+.box a:link {
+	text-decoration: none;
+}
+
+.one {
+	background-image: url("nailcare.jpg");
+	background-size: cover;
+	position: relative;
+	bottom: 30px;
+}
+
+.two {
+	background-image: url("services.jpg");
+	background-size:cover;
+	position: relative;
+	left: 145px;
+}
+
+.three {
+	background-image: url("maps.jpg");
+	background-size:cover;
+	float: right;
+
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!ABOUT PAGE!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.mani{
+	float: right;
+	margin-top: 20px;
+
+}
+.paragraph{
+	font-size: 18px;
+	background-color: #E8AAA4;
+	margin-right: 470px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+
+}
+/*!!!!!!!!!!!!!!!!!!!!SERVICES PAGE!!!!!!!!!!!!!!!!!!*/
+
+.leftnail{
+	font-size: 18px;
+	background-color: #E8AAA4;
+	margin-top: 20px;
+	margin-right: 440px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.rightwax{
+	font-size: 18px;
+	background-color: #E8AAA4;
+	margin-left: 440px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	bottom: 800px;
+}
+
+h3 {height: 40px;
+	text-align: center;
+}
+
+
+/*.nails{
+	position: relative;
+	float: right;
+	bottom: 790px;
+
+}*/
+
+/*!!!!!!!!!!!!!!!!!!!!PRODUCT PAGE!!!!!!!!!!!!!!!!!!!!*/
+.wrapper{
+	background-color: #E8AAA4;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.img{
+display:inline-block;
+padding-top: 30px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.desc{
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+}
+
+/*!!!!!!!!!!!!!!!!CONTACT PAGE!!!!!!!!!!!!!!!!!!!!*/
+
+.sidebox {
+	background-color: #E8AAA4;
+	margin-top: 20px;
+	padding-top: 65px;
+	padding-left: 20px;
+	padding-bottom: 65px;
+}
+
+.contact {
+	text-align: right;
+	position: relative;
+	right: 540px;
+}
+
+iframe {
+	padding-top: 42px;
+	padding-right: 20px;
+	float: right;
+	position: relative;
+	bottom:410px;
+}
+
+/*!!!!!!!!!!!!!!!!DELETE OFF THOSE BOXES!!!!!!!!!*/
+div.box {
+	padding: 20px;
+	/*border: 2px solid green;*/
+}
